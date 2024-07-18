@@ -33,6 +33,10 @@ img{
     max-width: 100%;
 }
 
+iframe{
+    width: 100%;
+}
+
 /* Utils  */
 .container{
     max-width: 100vw;
@@ -45,6 +49,10 @@ img{
 
 .row{
     width: 100%;
+}
+
+.col{
+
 }
 
 .shadow-box{
@@ -93,6 +101,10 @@ h2.details{
 span.rate{
     background-color: var(--primary-col);
     padding: 5px 10px;
+}
+
+ul.col-down{
+    list-style-type: none;
 }
 
 /* social media part  */
