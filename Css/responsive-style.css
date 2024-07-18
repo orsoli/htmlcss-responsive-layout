@@ -1,0 +1,15 @@
+/* tablet mode  */
+@media screen and (min-width: 769px) {
+    /* header title start  */
+    .main-header{
+        text-align: start;
+    }
+    /* padding container increase */
+    .container{
+        padding: 30px;
+    }
+    /* show dolce tradicionale  */
+    h2.details{
+        display: block;
+    }
+}

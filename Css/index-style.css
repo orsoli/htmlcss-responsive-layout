@@ -43,6 +43,10 @@ img{
     display: flex;
 }
 
+.row{
+    width: 100%;
+}
+
 .shadow-box{
     box-shadow: 0 0 10px var(--shadow-col);
 }
@@ -56,7 +60,7 @@ img{
 }
 
 .border-radius{
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* Header  */
@@ -67,6 +71,29 @@ img{
 }
 
 /* Main */
+
+/* recipe section  */
+p.subtitle{
+    font-size: 20px;
+}
+
+h2.details{
+    display: none;
+}
+
+.title-rcp{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-star-color{
+    color: var(--primary-col);
+}
+
+span.rate{
+    background-color: var(--primary-col);
+    padding: 5px 10px;
+}
 
 /* social media part  */
 .fa-facebook-color{
