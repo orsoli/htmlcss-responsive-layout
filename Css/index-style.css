@@ -13,6 +13,11 @@
     --footer-bg-col: #7C69A4;
     --footer-txt-col: #ffffff;
     --shadow-col: #8d8d8d;
+    --facebook-col: #448CF4;
+    --twitter-col: #27A1FF;
+    --insta-col: #E15587;
+    --pinterest-col: #E62322;
+    --youtube-col: #E62122;
 }
 
 /* Generics  */
@@ -34,12 +39,20 @@ main{
     display: flex;
 }
 
+.shadow-box{
+    box-shadow: 0 0 10px var(--shadow-col);
+}
+
 .shadow-effect{
     filter: drop-shadow(2px 0 1px var(--shadow-col));
 }
 
 .border{
     border: 1px solid var(--primary-col);
+}
+
+.border-radius{
+    border-radius: 10px;
 }
 
 /* Header  */
@@ -50,3 +63,25 @@ main{
 }
 
 /* Main */
+
+/* social media part  */
+.fa-facebook-color{
+    /* facebook icon color  */
+    color: var(--facebook-col);
+}
+.fa-twitter-color{
+    /* twitter icon color  */
+    color: var(--twitter-col);
+}
+.fa-insta-color{
+    /* insta icon color  */
+    color: var(--insta-col);
+}
+.fa-pinterest-color{
+    /* pinterest icon color  */
+    color: var(--pinterest-col);
+}
+.fa-youtube-color{
+    /* youtube icon color  */
+    color: var(--youtube-col);
+}
