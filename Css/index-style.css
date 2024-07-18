@@ -12,12 +12,16 @@
     --main-bg-col: #F6F5F3;
     --footer-bg-col: #7C69A4;
     --footer-txt-col: #ffffff;
-    --shadow-col: #E3E1E2;
+    --shadow-col: #8d8d8d;
 }
 
 /* Generics  */
 body{
-    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    background-color: var(--main-bg-col);
 }
 
 /* Utils  */
@@ -30,10 +34,18 @@ body{
 }
 
 .shadow-effect{
-    filter: drop-shadow(0 0 10px var(--shadow-col));
+    filter: drop-shadow(2px 0 1px var(--shadow-col));
 }
 
 .border{
     border: 1px solid var(--primary-col);
 }
 
+/* Header  */
+.main-header{
+    font-family: 'Nerko One', cursive;
+    color: var(--primary-col);
+    text-align: center;
+}
+
+/* Main */
