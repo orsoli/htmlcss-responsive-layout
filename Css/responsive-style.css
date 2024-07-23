@@ -63,8 +63,20 @@
     .vid-dtls ul{
         flex-direction: column;
     }
+
     /* Show social media names  */
     .label{
         display: inline;
+    }
+
+    /* Footer addres and navbar display flex  */
+    footer{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .nav-bar a{
+        font-size: 12px;
     }
 }

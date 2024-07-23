@@ -38,6 +38,14 @@ iframe{
     height: 400px;
 }
 
+footer{
+    background-color: var(--footer-bg-col);
+    clear: both;
+    color: var(--footer-txt-col);
+    padding: 10px;
+    text-align: center;
+}
+
 ul{
     list-style-type: none;
 }
@@ -245,4 +253,25 @@ span.rate{
 
 .presentation figure{
     text-align: center;
+}
+
+/* Footer   */
+footer>address{
+    font-style: normal;
+    padding: 1  0px 0;
+}
+
+.addres>p{
+    margin-bottom: 10px;
+}
+
+footer .nav-bar a{
+    color: var(--footer-txt-col);
+    text-decoration: underline;
+}
+
+footer .nav-bar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
