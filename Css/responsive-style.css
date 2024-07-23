@@ -24,11 +24,23 @@
     .vid-dtls li{
         flex-basis: calc(100%/3 - 20px/3);
     }
+    /* Social meedia icons border larger  */
+    .social-media li{
+        flex-basis: calc(100%/5);
+        text-align: center;
+    }
 
+    .social-media ul{
+        justify-content: space-around;
+    }
 }
 
 /* Desktop mode  */
 @media screen and (min-width: 992px) {
+    /* Title larger size */
+    .title>h1{
+        font-size: 35px;
+    }
     .video{
         display: flex;
     }  
@@ -40,5 +52,9 @@
     }
     .vid-dtls ul{
         flex-direction: column;
+    }
+    /* Show social media names  */
+    .label{
+        display: inline;
     }
 }

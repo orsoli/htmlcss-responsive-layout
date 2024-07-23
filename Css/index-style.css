@@ -42,6 +42,11 @@ ul{
     list-style-type: none;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
 /* Utils  */
 .container{
     max-width: 100vw;
@@ -184,6 +189,20 @@ span.rate{
 
 
 /* social media part  */
+.social-media{
+    justify-content: space-around;
+}
+
+.social-media li{
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.fa-brands{
+    margin: 5px;
+}
+
 .fa-facebook-color{
     /* facebook icon color  */
     color: var(--facebook-col);
@@ -203,6 +222,10 @@ span.rate{
 .fa-youtube-color{
     /* youtube icon color  */
     color: var(--youtube-col);
+}
+
+.label{
+    display: none;
 }
 
 /* presentation section  */
