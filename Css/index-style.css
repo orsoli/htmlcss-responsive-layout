@@ -238,3 +238,11 @@ span.rate{
     width: 300px;
     margin: 5px auto;
 }
+
+.presentation .border{
+    width: 15%;
+}
+
+.presentation figure{
+    text-align: center;
+}

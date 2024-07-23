@@ -37,6 +37,12 @@
     .ads{
         display: block;
     }
+
+    /* Presentation section  */
+    .presentation figure{
+        float: left;
+        margin-right: 10px;
+    }
 }
 
 /* Desktop mode  */
