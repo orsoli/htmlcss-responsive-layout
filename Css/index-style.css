@@ -35,6 +35,11 @@ img{
 
 iframe{
     width: 100%;
+    height: 400px;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* Utils  */
@@ -45,14 +50,6 @@ iframe{
 
 .flex{
     display: flex;
-}
-
-.row{
-    width: 100%;
-}
-
-.col{
-
 }
 
 .shadow-box{
@@ -85,7 +82,15 @@ p.subtitle{
     font-size: 20px;
 }
 
-h2.details{
+.title>h1{
+    color: var(--secondary-col);
+    display: inline;
+}
+
+.title-details{
+    color: var(--secondary-col);
+    font-size: 30px;
+    font-weight: bold;
     display: none;
 }
 
@@ -103,9 +108,80 @@ span.rate{
     padding: 5px 10px;
 }
 
-ul.col-down{
-    list-style-type: none;
+.details{
+    padding: 20px;
 }
+
+.vid-kcal{
+    background-color: rgb(235, 226, 241);
+    padding: 20px;
+}
+
+.calories{
+    justify-content:space-between ;
+    padding: 10px 0;
+}
+
+.kcal-nr{
+    background-color: var(--footer-bg-col);
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+
+
+.plus-info{
+    color: var(--primary-col);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.details .border{
+    border: 1px solid var(--shadow-col);
+}
+
+.veget{
+    padding: 10px 0;
+}
+
+.vid-dtls{
+    padding: 20px 0;
+}
+
+.vid-dtls ul{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vid-dtls>ul>li::before{
+    color: var(--primary-col);
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.difficulty::before{
+    content: "\f091";
+}
+
+.time::before{
+    content: '\f017';
+}
+.portion::before{
+    content: '\f818';
+}
+.cost::before{
+    content: '\f153';
+
+}
+.note::before{
+    content: '\f08d';
+
+}
+
+
 
 /* social media part  */
 .fa-facebook-color{

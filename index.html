@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nerko+One:regular,Montserrat:regular" rel="stylesheet">
 
     <!-- Fontawesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     
     <!-- Main Style   -->
     <link rel="stylesheet" href="./Css/index-style.css">
@@ -23,62 +24,58 @@
     <header class="main-header shadow-effect">
         <h1>GIALLO BOOLEANO</h1>
     </header>
-    <main>
-        <!-- video recipe steps section  -->
-        <section class="recipe-steps container">
-            <p class="subtitle">Dolce e Desserts</p>
-            <div class="row title-rcp flex">
-                <div class="tiramisu flex">
-                    <h2>Tiramisù</h2>
-                    <h2 class="details">(Dolce Tradizionale)</h2>
-                </div>
-                <div class="review">
-                    <i class="fa-solid fa-star fa-star-color"></i>
-                    <span><strong>4.6</strong>/5</span>
-                    <span class="rate border-radius">Rate</span>
-                </div>
-            </div>
-            <div class="row">
-                <!-- the video recipe  -->
-                <div class="col">
-                    <div class="card">
-                        <iframe src="https://www.youtube.com/embed/JVT900H6s0g?si=JOht7ec3nMHJeQbo" title="YouTube video player"></iframe>
+    <main class="container">
+        <!-- Recipe section  -->
+        <section class="header">
+            <header>
+                <!-- Title and rate  -->
+                <div class="title-rcp flex">
+                    <div class="title">
+                        <p class="subtitle">Dolce e Desserts</p>
+                        <h1>Tiramisù</h1>
+                        <span class="title-details">(Dolce Tradizionale)</span>
+                    </div>
+                    <div class="rate">
+                        <i class="fa-solid fa-star fa-star-color"></i>
+                        <span><strong>4.6</strong>/5</span>
+                        <span class="rate border-radius">Rate</span>
                     </div>
                 </div>
-                <!-- info of video  -->
-                <div class="col">
-                    <div class="card">
-                        <!-- the part of ingridients Kcal  -->
-                        <div class="col-up">
-                            <!-- kcal info  -->
-                            <div class="kcal flex">
+                <!-- Video and details  -->
+                <div class="video shadow-box">
+                    <div class="iframe">
+                        <iframe src="https://www.youtube.com/embed/JVT900H6s0g?si=JOht7ec3nMHJeQbo" title="YouTube video player"></iframe>
+                    </div>
+                    <div class="details">
+                        <div class="vid-kcal">
+                            <div class="calories flex">
                                 <span class="kcal-nr">554 KCal</span>
                                 <span class="plus-info">+info</span>
                             </div>
-                            <!-- boderer between  -->
                             <div class="border"></div>
-                            <!-- vegetarian  -->
                             <div class="veget">
                                 <i class="fa-solid fa-carrot"></i>
                                 <span>Vegetariano</span>
                             </div>
                         </div>
-                        <!-- info about duration video ect  -->
-                        <ul class="col-down">
-                            <!-- Difficulty  -->
-                            <li><span>Difficolta:</span><strong>Facile</strong></li>
-                            <!-- Duration  -->
-                            <li><span>Tempo:</span><strong>40min</strong></li>
-                            <!-- Portions  -->
-                            <li><span>Porzione per:</span><strong>8 persone</strong></li>
-                            <!-- Cost  -->
-                            <li><span>Costo:</span><strong>contenuto</strong></li>
-                            <!-- Note  -->
-                            <li><strong>Note</strong><span>+2 ore di riposo in frigo</span></li>
-                        </ul>
+                        <div class="vid-dtls">
+                            <!-- info about duration video ect  -->
+                            <ul class="flex">
+                                <!-- Difficulty  -->
+                                <li class="difficulty"><span>Difficolta:</span><strong>Facile</strong></li>
+                                <!-- Duration  -->
+                                <li class="time"><span>Tempo:</span><strong>40min</strong></li>
+                                <!-- Portions  -->
+                                <li class="portion"><span>Porzione per:</span><strong>8 persone</strong></li>
+                                <!-- Cost  -->
+                                <li class="cost"><span>Costo:</span><strong>contenuto</strong></li>
+                                <!-- Note  -->
+                                <li class="note"><strong>Note</strong><span>+2 ore di riposo in frigo</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </header>
         </section>
 
         <!-- sicial media part  -->
