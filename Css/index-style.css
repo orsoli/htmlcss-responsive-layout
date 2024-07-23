@@ -228,6 +228,11 @@ span.rate{
     display: none;
 }
 
+/* Advertising section  */
+.ads{
+    display: none;
+}
+
 /* presentation section  */
 #tiramisu{
     width: 300px;

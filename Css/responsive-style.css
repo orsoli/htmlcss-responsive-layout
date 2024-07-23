@@ -33,6 +33,10 @@
     .social-media ul{
         justify-content: space-around;
     }
+    /* Display  advertising  */
+    .ads{
+        display: block;
+    }
 }
 
 /* Desktop mode  */
